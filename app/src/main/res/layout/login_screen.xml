@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/appName_font_size"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_facebook_login"
+        android:layout_margin="@dimen/appName_margin"/>
+
+    <Button
+        android:id="@+id/btn_facebook_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_login_facebook"
+        android:layout_above="@+id/btn_naver_login"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btn_naver_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_login_naver"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btn_kakaotalk_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_login_kakaotalk"
+        android:layout_below="@+id/btn_naver_login"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btn_google_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_login_google"
+        android:layout_below="@+id/btn_kakaotalk_login"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

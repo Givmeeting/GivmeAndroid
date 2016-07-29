@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Givme</string>
+    <string name="str_login_facebook">facebook으로 로그인</string>
+    <string name="str_login_naver">naver로 로그인하기</string>
+    <string name="str_login_kakaotalk">카카오톡으로 로그인</string>
+    <string name="str_login_google">google로 로그인</string>
+</resources>
